@@ -1,0 +1,75 @@
+[0.013s] Invoking command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clue/pantilt_ros2/src/pca9685_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/clue/pantilt_ros2/install/pca9685_hardware_interface
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting CXX compiler ABI info
+[0.178s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.525s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.541s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.387s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.390s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.434s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.491s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.494s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.511s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.523s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.532s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.543s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.555s] -- Looking for C++ include pthread.h
+[1.648s] -- Looking for C++ include pthread.h - found
+[1.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.759s] -- Found Threads: TRUE  
+[2.102s] -- Configuring done
+[2.137s] -- Generating done
+[2.139s] -- Build files have been written to: /home/clue/pantilt_ros2/build/pca9685_hardware_interface
+[2.149s] Invoked command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clue/pantilt_ros2/src/pca9685_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/clue/pantilt_ros2/install/pca9685_hardware_interface
+[2.152s] Invoking command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clue/pantilt_ros2/build/pca9685_hardware_interface -- -j8 -l8
+[2.207s] [ 75%] [32mBuilding CXX object CMakeFiles/pca9685_hardware_interface.dir/src/I2CPeripheral.cpp.o[0m
+[2.207s] [ 75%] [32mBuilding CXX object CMakeFiles/pca9685_hardware_interface.dir/src/pca9685_comm.cpp.o[0m
+[2.207s] [ 75%] [32mBuilding CXX object CMakeFiles/pca9685_hardware_interface.dir/src/pca9685_system.cpp.o[0m
+[5.969s] [100%] [32m[1mLinking CXX shared library libpca9685_hardware_interface.so[0m
+[6.177s] [100%] Built target pca9685_hardware_interface
+[6.188s] Invoked command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clue/pantilt_ros2/build/pca9685_hardware_interface -- -j8 -l8
+[6.231s] Invoking command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clue/pantilt_ros2/build/pca9685_hardware_interface
+[6.239s] -- Install configuration: ""
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/pca9685_hardware_interface.xml
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface/pca9685_system.hpp
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface/I2CPeripheral.h
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface/Constants.h
+[6.240s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface/visibility_control.h
+[6.241s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/include/pca9685_hardware_interface/pca9685_hardware_interface/pca9685_comm.h
+[6.241s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/lib/libpca9685_hardware_interface.so
+[6.242s] -- Set runtime path of "/home/clue/pantilt_ros2/install/pca9685_hardware_interface/lib/libpca9685_hardware_interface.so" to ""
+[6.242s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/library_path.sh
+[6.242s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/library_path.dsv
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/ament_index/resource_index/package_run_dependencies/pca9685_hardware_interface
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/ament_index/resource_index/parent_prefix_path/pca9685_hardware_interface
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/ament_prefix_path.sh
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/ament_prefix_path.dsv
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/path.sh
+[6.243s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/environment/path.dsv
+[6.244s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/local_setup.bash
+[6.244s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/local_setup.sh
+[6.244s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/local_setup.zsh
+[6.244s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/local_setup.dsv
+[6.244s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/package.dsv
+[6.245s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/ament_index/resource_index/packages/pca9685_hardware_interface
+[6.245s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/pca9685_hardware_interface
+[6.245s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/export_pca9685_hardware_interfaceExport.cmake
+[6.245s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/export_pca9685_hardware_interfaceExport-noconfig.cmake
+[6.246s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.246s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.246s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/pca9685_hardware_interfaceConfig.cmake
+[6.246s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/cmake/pca9685_hardware_interfaceConfig-version.cmake
+[6.246s] -- Installing: /home/clue/pantilt_ros2/install/pca9685_hardware_interface/share/pca9685_hardware_interface/package.xml
+[6.249s] Invoked command in '/home/clue/pantilt_ros2/build/pca9685_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clue/pantilt_ros2/build/pca9685_hardware_interface

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="pantilt_bot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find pantilt_bot_description)/urdf/pantilt_bot.xacro" />
+  <xacro:include filename="$(find pantilt_bot_description)/urdf/pantilt_bot.ros2_control.xacro" />
+
+  <link name="world"/>
+
+  <xacro:pantilt_bot parent="world">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:pantilt_bot>
+
+  <xacro:pantilt_bot_ros2_control name="pantilt_bot_ros2_control" />
+</robot>
